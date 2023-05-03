@@ -250,7 +250,7 @@ footer {
   font-size: smaller;
 }
 
-@media screen and (min-width: 810px) {
+@media screen and (width <= 810px) {
   .other-service {
     text-align: center;
     margin-top: 100px;
@@ -345,7 +345,7 @@ footer {
   }
 }
 
-@media screen and (min-width: 400px) {
+@media screen and (width<= 400px) {
   body {
     background-image: url(Images/background.png);
     background-size: cover;
